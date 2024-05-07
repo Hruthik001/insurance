@@ -69,13 +69,13 @@ p{
 
 @media only screen and (max-width: 768px){
     .insurance_head{
-        font-size: 1.3rem;
-        margin: 1rem;
+        font-size: 1.8rem;
+        margin: 1.9rem;
     }
 
     .footer_para{
-        font-size: 0.8rem;
-        padding: 2rem;
+        font-size: 0.9rem;
+        margin: -0.8rem;
     }
 
     .hero_main,
@@ -98,6 +98,6 @@ p{
     }
 
     .font{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 }
