@@ -1,95 +1,86 @@
-* {
+*{
     margin: 0;
-    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
 }
 
-.insurance_head{
+.it_head{
+    font-size: 3.2rem;
     text-align: center;
-    font-size: 3.3rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    margin: 1.9rem; 
+    margin-top: 2.9rem;
 }
 
-.footer_para {
-    font-size: 1.5rem;
+.it_para{
     text-align: center;
     margin: 4rem;
 }
 
+img{
+    height: auto;
+    width: 4.9rem;
+}
+
 .hero_main{
-   display: flex;
-   text-align: center;
-   justify-content: center;
-   gap: 6rem;
-   margin: 5rem;
-   margin-bottom: 6rem;
-}
-
-.hero_main2{
     display: flex;
-   text-align: center;
-   justify-content: center;
-   margin: 5rem;
-   gap: 6rem;
+    text-align: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 5rem;
+    margin-bottom: 6rem;
 }
 
-p{
-    font-size: 0.9rem;
-}
-
-.hero_main_1,
-.hero_main_2{
-    padding: 1rem;
+.hero_main_1{
+    padding: 1.4rem;
     border-radius: 0.5rem;
     width: calc(25% - 10%);
     background-color: lightgrey;
 }
 
-.hero_main_tag{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 0.6rem;
-    text-align: center;
+p{
+    margin-top: 0.8rem;
 }
 
-.hero_main_1:hover,
-.hero_main_2:hover {
+.hero_main_tag{
+    text-decoration: none;
+    color: inherit;
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_main_1:hover{
     transform: scale(1.1);
     background-color: black;
     transition: 0.3s;
     color: white;
 }
 
-.link_insurance{
-    color: inherit;
-    text-decoration: none;
-}
-
 @media only screen and (max-width: 768px){
-    .insurance_head{
+    .it_head{
         font-size: 1.8rem;
         margin: 1.9rem;
     }
 
-    .footer_para{
+    .it_para{
         font-size: 0.9rem;
-        margin: 0.8rem;
+        margin: 1px;
+        margin-bottom: 2rem;
     }
 
-    .hero_main,
-    .hero_main2{
+    .hero_main{
         flex-wrap: wrap;
-        gap: 1rem;
-        margin: 1rem;
+        gap: 0.8rem;
+        margin: 0.5rem;
+        
     }
 
-    .hero_main_1,
-    .hero_main_2 {
+    .hero_main_1 {
         margin: 0.5rem;
-        padding: 1.5rem;
+        padding: 1.7rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         gap: 0;
     }
 
@@ -98,7 +89,8 @@ p{
         height: auto;
     }
 
-    .font{
+    p{
         font-size: 0.8rem;
     }
 }
+
