@@ -44,6 +44,7 @@ p{
     padding: 1rem;
     border-radius: 0.5rem;
     width: calc(25% - 10%);
+    background-color: lightgrey;
 }
 
 .hero_main_tag{
@@ -75,7 +76,7 @@ p{
 
     .footer_para{
         font-size: 0.9rem;
-        margin: -0.8rem;
+        margin: 0.8rem;
     }
 
     .hero_main,
