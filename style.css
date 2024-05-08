@@ -44,7 +44,7 @@ p{
     padding: 1rem;
     border-radius: 0.5rem;
     width: calc(25% - 10%);
-    background-color: lightgrey;
+    background-color: rgb(224, 224, 224);
 }
 
 .hero_main_tag{
@@ -83,7 +83,7 @@ p{
     .hero_main2{
         flex-wrap: wrap;
         gap: 1rem;
-        margin: 1rem;
+        margin: 0.2rem;
     }
 
     .hero_main_1,
