@@ -1,116 +1,102 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
 }
 
-.insurance_head{
+.it_head{
+    font-size: 3.2rem;
     text-align: center;
-    font-size: 3.3rem;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 1.9rem; 
+    margin-top: 2.9rem;
     font-weight: 550;
 }
 
-.footer_para {
-    font-size: 1.5rem;
+.it_para{
     text-align: center;
     margin: 4rem;
     font-weight: 400;
 }
 
-.hero_main{
-   display: flex;
-   text-align: center;
-   justify-content: center;
-   gap: 6rem;
-   margin: 5rem;
-   margin-bottom: 6rem;
-   font-weight: 350;
-}
-
-.hero_main2{
-    display: flex;
-   text-align: center;
-   justify-content: center;
-   margin: 5rem;
-   gap: 6rem;
-   font-weight: 350;
-}
-
-p{
-    font-size: 0.9rem;
-}
-
-.hero_main_1,
-.hero_main_2{
-    padding: 1rem;
-    border-radius: 1.5rem;
-    width: calc(25% - 10%);
-    background-color: #f1f1f1;
-}
-
-.hero_main_tag{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 0.6rem;
-    text-align: center;
-}
-
 img{
-    height: 6.5rem;
+    height: 8rem;
     width: auto;
 }
 
-.hero_main_1:hover,
-.hero_main_2:hover {
+.hero_main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 5rem;
+    margin-bottom: 6rem;
+}
+
+.hero_main_1{
+    padding: 1.4rem;
+    border-radius: 1.5rem;
+    width: calc(25% - 10%);
+    background-color:  #f1f1f1;
+}
+
+p{
+    margin-top: 0.8rem;
+    margin: 1rem;
+}
+
+.hero_main_tag{
+    text-decoration: none;
+    color: inherit;
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_main_1:hover{
     transform: scale(1.1);
     background-color: black;
     transition: 0.3s;
     color: white;
 }
 
-.link_insurance{
-    color: inherit;
-    text-decoration: none;
-}
-
 @media only screen and (max-width: 768px){
-    .insurance_head{
+    .it_head{
         font-size: 1.8rem;
         margin: 1.9rem;
     }
 
-    .footer_para{
+    .it_para{
         font-size: 0.9rem;
-        margin: 0.8rem;
+        margin: 1.9px;
+        margin-bottom: 2rem;
     }
 
-    .hero_main,
-    .hero_main2{
+    .hero_main{
         flex-wrap: wrap;
-        padding: 0rem;
-        margin: 0;
+        gap: 0.8rem;
+        margin: 0.1rem;
         gap: calc(50% - 11rem);
     }
 
-    .hero_main_1,
-    .hero_main_2 {
-        margin: 0.7rem;
-        padding: 2.8rem;
+    .hero_main_1 {
+        margin: 0.6rem;
+        padding: 3rem;
+        padding-top: 0;
+        padding-bottom: 0;
         gap: 0;
-        border-radius: 1.1rem;
-        padding-top: 1.7rem;
-        padding-bottom: 1.7rem;
+        border-radius: 1.5rem;
     }
 
     img {
-        width: 6rem;
+        width: 8rem;
         height: auto;
     }
 
-    .font{
+    p{
         font-size: 1rem;
+        font-weight: 300;
     }
 }
+
